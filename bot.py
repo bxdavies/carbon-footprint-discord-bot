@@ -13,7 +13,7 @@ import asyncio
 ### Discord Variables ###
 #########################
 client = discord.Client()
-TOKEN = "NzA2NTUzMDc3MzgxMDcwOTU4.Xq77ag.uwNEfsXZIuBe4Xzka3fbas0W6Zk"
+TOKEN = ""
 bot = commands.Bot(command_prefix='.')
 #bot.remove_command('help')
 
@@ -21,10 +21,10 @@ bot = commands.Bot(command_prefix='.')
 ### Database Conetcion ###
 ##########################
 mydb = mysql.connector.connect(
-  host="173.255.235.36",
-  user="bxdavies_fp",
-  password="tIEIOCOa4BI4",
-  database="bxdavies_fp"
+  host="",
+  user="",
+  password="",
+  database=""
 )
 global mycursor
 mycursor = mydb.cursor()
